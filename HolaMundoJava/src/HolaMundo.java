@@ -60,5 +60,9 @@ public class HolaMundo {
         Scanner consola = new Scanner(System.in);
         var cliente = consola.nextLine();
         System.out.println("cliente = " + cliente);
+        
+        System.out.println("Escribe el titulo");
+        var titulo2 = consola.nextLine();
+        System.out.println("Resultado = " + titulo2 + " " + cliente);
     }
 }
