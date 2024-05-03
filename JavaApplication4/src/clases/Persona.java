@@ -1,10 +1,13 @@
-
 package clases;
 
 public class Persona {
-    
-    public static void main(String[] args) {
-        psvm
+
+    String nombre;
+    String apellido;
+
+    public void desplegarInformarcion() {
+        System.out.println("Nombre = " + nombre);
+        System.out.println("Apellido = " + apellido);
     }
-    
+
 }
