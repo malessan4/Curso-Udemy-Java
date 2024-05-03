@@ -19,9 +19,9 @@ public class Aritmetica {
     }
 
     public int sumarConArgumentos(int arg1, int arg2) {
-        a = arg1;
-        b = arg2;
-        return a + b;
-
+        this.a = arg1;
+        this.b = arg2;
+        return this.sumarConRetorno();
+// cuando tenemos this. sabemos que hace referencia a un atributo de nuestra clase
     }
 }
